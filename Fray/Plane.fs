@@ -7,7 +7,7 @@ open Color
 
 type Plane (norm: Vector, offset: float, surface) =
     inherit SceneObject(surface)
-    let mutable Norm = {i = 0.0; j = 1.0; k = 0.0}
+    let mutable Norm = norm
     let mutable Offset = offset
 
     override this.Intersect ray =

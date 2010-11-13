@@ -7,8 +7,8 @@ open System.Windows.Forms
 open Raytracer
 
 // Size of window and canvas
-let xSize = 600
-let ySize = 600
+let xSize = 1080
+let ySize = 1080
 
 let mainForm = new Form(Width = xSize, Height = ySize, Text = "Fray")
 let box =
